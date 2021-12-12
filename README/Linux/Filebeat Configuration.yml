@@ -15,11 +15,13 @@ Kibana
 
 Elastic Cloud 
 #This is how you set up kibana 
-# I really tried to set this up,but ufornately i couldn't connect my server even with yml code
-General 
+#I really tried to set this up,but ufornately i couldn't connect my server even with yaml code
+#https://cloud.elastic.co
 
+General 
 # This wad hard to keep track of in the server I definetly did not set this up right
 # I wish I could put more,but im stuck
+# nano Into yaml file
 
 
 

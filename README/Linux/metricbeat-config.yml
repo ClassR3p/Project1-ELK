@@ -3,6 +3,7 @@ Metricbeat Configuration Example
 
 General 
 # I really struggled on getting this ,but I wasnt able to make 
+# nano Into yaml file
  
 Dashboards 
 #You can acces this file on elasticheart,but i couldn't get it to work

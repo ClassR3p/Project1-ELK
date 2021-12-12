@@ -4,6 +4,12 @@ Anisble Configurtaion
 
 # This plug-ins into the yaml code and I get the gist
 
-Defaults
+Genral
 
 # this allow ssh get plugin the web
+# ssh catman@20.120.0.25
+# I was able to install elk into containers
+#Then I was able to do sudo docker container list -a 
+#check and locate contianer 
+# Locate the etc file and yaml files there 
+#nano [intsert file yaml]
