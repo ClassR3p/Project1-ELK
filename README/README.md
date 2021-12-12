@@ -1,7 +1,8 @@
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
- ![](2021-12-11-17-45-06.png)
+
+![Elk Project drawio](https://user-images.githubusercontent.com/24533867/145702943-d7ca77e4-8675-49e8-b57e-7dffcd92b8c6.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -70,7 +71,8 @@ The playbook implements the following tasks:
 - Command: sysctl -w vm.max_map_count=262144
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-![](2021-12-11-19-51-20.png)
+![Docker_ps](https://user-images.githubusercontent.com/24533867/145702955-c7a7b1f6-f088-414a-a4ac-50566656da43.JPG)
+
 
 ![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
 
@@ -107,7 +109,9 @@ _TODO: Answer the following questions to fill in the blanks:_
 -sudo docker ps
 -installing_elk.yml Location: /etc/ansible/installing_elk.yml
 -Go to http://[52.225.74.201]:5601/app/kibana to confirm 
-![](2021-12-11-22-15-36.png)
+
+![elkproject_kibana_screenshot](https://user-images.githubusercontent.com/24533867/145702967-17a4d11f-dabe-4ab5-8718-cf496371dc9b.png)
+
 - _Which URL do you navigate to in order to check that the ELK server is running?
 put:
 - ssh catman@20.120.0.25
