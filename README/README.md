@@ -73,9 +73,6 @@ The playbook implements the following tasks:
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 ![Docker_ps](https://user-images.githubusercontent.com/24533867/145702955-c7a7b1f6-f088-414a-a4ac-50566656da43.JPG)
 
-
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
-
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 - |ELK-Machine1|10.0.0.5     |
@@ -89,6 +86,7 @@ We have installed the following Beats on these machines:
 These Beats allow us to collect the following information from each machine:
 - Filebeat monitors your the placement and changes log files.It then collects these log events and forwards them to Elasticsearch or Logstash
 - Metricbeat collects metrics from your computer specifically your OS and services that you ran within the server
+-
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 - 
@@ -115,7 +113,9 @@ _TODO: Answer the following questions to fill in the blanks:_
 
 ![elkproject_kibana_screenshot](https://user-images.githubusercontent.com/24533867/145702967-17a4d11f-dabe-4ab5-8718-cf496371dc9b.png)
 (I wasn't able to get filebeat to work)
-
+![Filebeat](https://user-images.githubusercontent.com/24533867/145704110-28eff859-4715-4d2f-9472-31f6452b319f.PNG)
+![Capture](https://user-images.githubusercontent.com/24533867/145704155-e268a8fd-326b-4ca4-8d2e-6b9482450b17.PNG)
+I did change things,but i dont know whats wrong
 - _Which URL do you navigate to in order to check that the ELK server is running?
 put:
 - ssh catman@20.120.0.25
