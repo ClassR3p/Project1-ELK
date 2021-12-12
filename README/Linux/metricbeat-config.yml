@@ -13,7 +13,7 @@ Kibana
 #I hard time connecting this with my IP 
 # It couldn't acces thsi file and I felt defeated after changing the ports
 #http://[52.225.74.201]:5601/app/kibana
-# I got it to work after messing around in my azure security inbound rules
+# I got it to work after messing around in my azure security inbound rules,but i didnt get filebeat
 
 Elastic Cloud 
 #This is how you set up kibana 
