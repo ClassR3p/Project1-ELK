@@ -8,7 +8,7 @@ metricbeat.config.modules:
   reload.enabled: false
 
 General 
-# I really struggled on getting this ,but I wa sable to make 
+# I really struggled on getting this ,but I wasnt able to make 
  
  Dashboards 
 #You can acces this file on elasticheart,but i couldn't get it to work
@@ -19,9 +19,6 @@ Kibana
  Elastic Cloud 
  #This is how you set up kibana 
 
-# The cloud.auth setting overwrites the `output.elasticsearch.username` and
-# `output.elasticsearch.password` settings. The format is `<user>:<pass>`.
-#cloud.auth:
 
 
 
