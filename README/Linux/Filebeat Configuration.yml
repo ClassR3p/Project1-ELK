@@ -1,0 +1,32 @@
+ Filebeat Configuration 
+
+# This was terrible I hard time.I really had diffculty on setting this up to a point where i didn't know what i was doing
+# I was able to make a filebeat.yml file though in my Anisble file
+
+filebeat.config.modules:
+  path: ${path.config}/modules.d/*.yml
+
+Modules configuration 
+
+filebeat.config.modules:
+  path: ${path.config}/modules.d/*.yml
+  reload.enabled: true
+
+ Dashboards 
+#You can acces this file on elasticheart,but i couldn't get it to work
+#https://cloud.elastic.co
+
+Kibana 
+#I hard time connecting this with my  file 
+ Elastic Cloud 
+ #This is how you set up kibana 
+ # I really tried to set this up,but ufornately i couldn't connect my server even with yml code
+
+
+General 
+
+# This wad hard to keep track of in the server I definetly did not set this up right
+# I wish I could put more,but im stuck
+
+
+

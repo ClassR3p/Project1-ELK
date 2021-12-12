@@ -1,0 +1,28 @@
+Metricbeat Configuration Example 
+
+# This was hard I really di sleep over this.Can we please over this topic more
+
+Modules configuration 
+metricbeat.config.modules:
+  path: ${path.config}/modules.d/*.yml
+  reload.enabled: false
+
+General 
+# I really struggled on getting this ,but I wa sable to make 
+ 
+ Dashboards 
+#You can acces this file on elasticheart,but i couldn't get it to work
+#https://cloud.elastic.co
+
+Kibana 
+#I hard time connecting this with my  file 
+ Elastic Cloud 
+ #This is how you set up kibana 
+
+# The cloud.auth setting overwrites the `output.elasticsearch.username` and
+# `output.elasticsearch.password` settings. The format is `<user>:<pass>`.
+#cloud.auth:
+
+
+
+

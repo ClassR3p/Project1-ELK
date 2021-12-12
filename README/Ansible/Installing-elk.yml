@@ -1,0 +1,46 @@
+---
+- name: config Elk VM with Docker
+  hosts: elk
+  become: true
+  tasks:
+   
+  - name: uninstall apache2
+    apt: 
+      name: apache2
+      state: absent
+
+  - name: install docker.io
+    apt:
+      update_cache: yes
+      force_apt_get: yes
+      name: docker.io
+      state: present
+  
+  - name: install python3_pip
+    apt:
+      force_apt_get: yes
+      name: python3-pip
+      state: present
+  
+
+    pip:
+      name: docker
+      state: present
+  
+  - name: use more memory
+    sysctl: 
+      name: vm.max_map_count
+      value: '262144'
+      state: present
+      reload: yes
+
+  - name: download a docker elk container
+    docker_container:
+      name: elk
+      image: sebp/elk:761
+      state: started
+      restart_policy: always
+      published_ports:
+        - 5601:5601
+        - 9200:9200
+        - 5044:5044
