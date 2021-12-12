@@ -14,14 +14,13 @@ Kibana
 # I got it to work after messing around in my azure security inbound rules
 
 Elastic Cloud 
-#This is how you set up kibana 
+#This is how you set up kibana metricbeat and filebeat work through this
 #I really tried to set this up,but ufornately i couldn't connect my server even with yaml code
 #https://cloud.elastic.co
 
 General 
-# This wad hard to keep track of in the server I definetly did not set this up right
+# This was hard to keep track of in the server I definetly did not set this up right
 # I wish I could put more,but im stuck
-# nano Into yaml file
-
-
-
+# nano Into yaml file is listed in /etc/ansible/files/ directory 
+#It doesn't work
+#filebeat elastic search into kibana

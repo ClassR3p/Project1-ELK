@@ -17,8 +17,6 @@ Kibana
 
 Elastic Cloud 
 #This is how you set up kibana 
-
-
-
-
-
+#This is how you set up kibana metricbeat and filebeat work through this
+#I really tried to set this up,but ufornately i couldn't connect my server even with yaml code
+#https://cloud.elastic.co
