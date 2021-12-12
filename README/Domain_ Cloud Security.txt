@@ -1,0 +1,47 @@
+﻿Domain: Cloud Security
+Question 1: Cloud Access Control
+How would you control access to a cloud network?
+1. Restate the Problem
+   * When you implement systems and application access controls in order to only let authorized users access cloud data and applications
+      * It only lets certain users from accessing private information.This helps companies and users avoid DDos attacks
+
+   2. Provide a Concrete Example Scenario
+
+      * In Project 1, did you deploy an on-premises or cloud network?
+      * Cloud network it was easier to access my VMs and Load Balancers a lot easier.
+      * Did you have to configure access controls to this network?
+      * Yes and I had to white list my IP address a few times,but overall I was able to  access the controls so that other users could access it through my credentials
+      * What kinds of access controls did you configure, and why were they necessary?
+      * I was able to make my VMs private so the only way they could access the file is through the ssh key I provided and the user.That way I can tell the employer that people with knowledge of the IP address and the user could access the info on git bash.
+      * How do these details relate to the interview question?
+      * It is helpful so that the employer gets the gist of what I did on the cloud network.It gives a person who lacks in  knowledge a better understanding.
+Question 4: Cloud Infrastructure as Code
+What are the security benefits of defining cloud infrastructure as code?
+      1. Restate the Problem
+It easier to access your VMs and distribute yaml files
+      2. Provide a Concrete Example Scenario
+
+         * In Project 1, when did you use infrastructure as code (IaC)?
+         1. Setting up my elk server and preparing my yaml code so it code deploy  filebeat and metricbeat
+         * What tool did you use?
+         1. docker 
+         * What did you use it to do?
+         1. It allowed me to set up a up a elk server and made it easier to set up some of yaml codes for filebeat/metricbeat
+         3. Explain the Solution Requirements
+
+            * Were there any alternatives to IaC?
+            1. Docker is a great alternative to a IaC,I like it a lot better and find it easier to  package and deploy them in any environment.
+            * What benefits does IaC have over alternative approaches?
+            1. The speed is a lot faster and more consistent on deploying and packaging an environment
+            4. Explain the Solution Details
+
+               * In Project 1, which specific configurations did your IaC set up?
+               1. To check if ELK server was running
+               * How did you run and test these configurations?
+               1. - sudo docker container list -a 
+               2. - sudo docker start container 
+               3. - sudo docker attach container
+               5. Identify Advantages/Disadvantages of the Solution
+
+                  * Are there any disadvantages to using IaC over the "traditional" approach?
+                  1. The approach to distribute the code in the release pipeline is efficient for a few time use,but as the environment changes so does the Iac
