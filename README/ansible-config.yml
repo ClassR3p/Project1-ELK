@@ -1,9 +1,0 @@
-Anisble Configurtaion
-# config file for ansible -- https://ansible.com/
-# ===============================================
-
-# This plug-ins into the yaml code and I get the gist
-
-Defaults
-
-# this allow ssh get plugin the web
