@@ -100,8 +100,11 @@ SSH into the control node and follow the steps below:
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
+
 /etc/ansible/host
+
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+
 -Servers > [10.0.0.5] ansible_python_interpreter=/usr/bin/python3 [10.2.0.4] ansible_python_interpreter=/usr/bin/python3 [10.2.0.5] ansible_python_interpreter=/usr/bin/python3
 -Elk > 10.1.0.4 ansible_python_interpreter=/usr/bin/python3
 -run playbook
