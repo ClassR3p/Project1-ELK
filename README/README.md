@@ -114,6 +114,7 @@ _TODO: Answer the following questions to fill in the blanks:_
 -Go to http://[52.225.74.201]:5601/app/kibana to confirm 
 
 ![elkproject_kibana_screenshot](https://user-images.githubusercontent.com/24533867/145702967-17a4d11f-dabe-4ab5-8718-cf496371dc9b.png)
+(I wasn't able to get filebeat to work)
 
 - _Which URL do you navigate to in order to check that the ELK server is running?
 put:
